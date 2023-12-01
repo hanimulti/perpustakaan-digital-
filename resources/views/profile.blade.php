@@ -12,11 +12,11 @@
     <hr>
     <table border="1">
     <tr>
-            <th bgcolor="pink" rowspan= "1">Nama Lengkap = Meike Nadya Chandra
+            <th bgcolor="pink" rowspan= "1">Nama Lengkap = Hani Multi Rahayu
             
             
 
-        @if($nama == "Meike")
+        @if($nama == "Hani")
             <tr>
                 <td>Nama Saya :</td>
                 <td>{{ $nama }} </td>
@@ -30,17 +30,17 @@
             <td>NAMA-NAMA MAHASISWA STMIK MARDIRA</td>
             </tr>
     <h1>Contoh Pengulangan
-        <br> Nama= Meike Nadya Chandra
-        <br> Nama= Rian Kurniawan
-        <br> Nama= Insania Kamila
+        <br> Nama= Hani Multi Rahayu
+        <br> Nama= Eulis A
+        <br> Nama= Renda Tubali
      </head>
 
      <h1>Contoh forelse </h1>
 <table>
-        @forelse([' = Hani Multi Rahayu'] as $data)
-        <br> Nama= Meike Nadya Chandra
-        <br> Nama= Rian Kurniawan
-        <br> Nama= Insania Kamila
+        @forelse([' = Meike Nadya Chandra'] as $data)
+        <br> Nama= Hani Multi Rahayu
+        <br> Nama= Eulis A
+        <br> Nama= Renda Tubali
      </head>
     <tr>
         <td> Nama </td>

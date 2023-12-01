@@ -8,12 +8,12 @@ class ProfilController extends Controller
 {
     public function index()
     {
-        $nama = "Meike Nadya Chandra";
+        $nama = "Hani Multi Rahayu";
         $alamat = "Kota Bandung";
-        $tanggal_lahir = "8 Mei 2003";
+        $tanggal_lahir = "9 Mei 2003";
         $data_array = array(
             "nama" => array(
-                "Meike", "Ryan", "Risna",
+                "Hani", "Elis", "Renda",
             ),
         );
 
